@@ -4,11 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/navbar/Navbar'
 import Home from './components/Home/Home'
 import ProductDetail from './components/ProductDetail/ProductDetail'
-
+import Cart from './components/Cart/Cart'
 import { CartProvider } from './components/context/CartContext'
 
 import './index.css'
-import Cart from './components/CarT/Cart'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

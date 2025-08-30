@@ -1,0 +1,141 @@
+.home {
+  padding: 30px;
+  min-height: 88vh;
+}
+
+/* Hero Section */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  padding: 80px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #fff;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.hero-btn {
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+  margin: 0 10px;
+}
+
+.hero-btn:hover {
+  background-color: #ff3b2f;
+}
+
+/* Products */
+.home-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 40px 0 25px;
+  color: #0A1931;
+}
+
+/* Grid Layout: 4 columns on desktop */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Product Card */
+.product-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-image {
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.product-name {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #0A1931;
+}
+
+.product-price {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.product-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+}
+
+.product-link:hover {
+  text-decoration: none;
+}
+
+.add-btn {
+  background-color: #0A1931;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+.add-btn:hover {
+  background-color: #F0DE36;
+  color: #0A1931;
+}
+
+.add-btn:active {
+  transform: scale(0.95);
+}
+
+/* Responsive: Tablet & Mobile */
+@media (max-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+}

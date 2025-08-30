@@ -4,11 +4,11 @@ import { useCart } from './../context/CartContext'
 import p1 from '../../assets/images/watch.png'
 import p2 from '../../assets/images/cream.png'
 import p3 from '../../assets/images/headset.png'
-import p4 from '../../assets/images/watch.png'
-import p5 from '../../assets/images/watch.png'
-import p6 from '../../assets/images/watch.png'
-import p7 from '../../assets/images/watch.png'
-import p8 from '../../assets/images/watch.png'
+import p4 from '../../assets/images/bag.png'
+import p5 from '../../assets/images/shoes.png'
+import p6 from '../../assets/images/pens.png'
+import p7 from '../../assets/images/Anarkali.png'
+import p8 from '../../assets/images/Wing chair.png'
 import './ProductDetail.css'
 
 function ProductDetail() {
@@ -23,11 +23,11 @@ function ProductDetail() {
       { id: 1, name: "Smart Watch", price: "$25", image: p1, description: "Premium smartwatch with health monitoring features, GPS tracking, and long battery life. Perfect for fitness enthusiasts and tech lovers." },
       { id: 2, name: "Beauty Cream", price: "$40", image: p2, description: "Hydrating beauty cream with natural ingredients. Provides deep moisture and helps maintain youthful skin." },
       { id: 3, name: "Wireless Headset", price: "$15", image: p3, description: "High-quality wireless headset with noise cancellation. Perfect for gaming, music, and calls with crystal clear sound." },
-      { id: 4, name: "Premium Watch", price: "$50", image: p4, description: "Elegant premium watch with leather strap. Classic design suitable for both casual and formal occasions." },
-      { id: 5, name: "Sport Watch", price: "$30", image: p5, description: "Durable sport watch with water resistance. Features include stopwatch, timer, and backlight for outdoor activities." },
-      { id: 6, name: "Luxury Watch", price: "$60", image: p6, description: "Luxury watch with premium materials and craftsmanship. A statement piece that adds elegance to any outfit." },
-      { id: 7, name: "Casual Watch", price: "$20", image: p7, description: "Comfortable casual watch perfect for everyday wear. Lightweight design with easy-to-read display." },
-      { id: 8, name: "Designer Watch", price: "$70", image: p8, description: "Exclusive designer watch with unique styling. Limited edition piece that showcases exceptional design and quality." },
+      { id: 4, name: "School Bag", price: "$50", image: p4, description: "Elegant premium watch with leather strap. Classic design suitable for both casual and formal occasions." },
+      { id: 5, name: "Sport shoe", price: "$30", image: p5, description: "Durable sport watch with water resistance. Features include stopwatch, timer, and backlight for outdoor activities." },
+      { id: 6, name: "Cristal Pens", price: "$10", image: p6, description: "Luxury watch with premium materials and craftsmanship. A statement piece that adds elegance to any outfit." },
+      { id: 7, name: "Anarkali Salwar", price: "$20", image: p7, description: "Comfortable casual watch perfect for everyday wear. Lightweight design with easy-to-read display." },
+      { id: 8, name: "Wing chair", price: "$90", image: p8, description: "Exclusive designer watch with unique styling. Limited edition piece that showcases exceptional design and quality." },
     ];
     
     return products.find(product => product.id === parseInt(id));
@@ -77,6 +77,7 @@ function ProductDetail() {
             >
               Back to Home
             </button>
+            <button className='Order'>Order</button>
           </div>
         </div>
       </div>

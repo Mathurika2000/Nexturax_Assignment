@@ -59,8 +59,8 @@
   flex-wrap: wrap;
 }
 
-.add-to-cart-btn {
-  background-color: #3498db;
+.add-to-cart-btn ,.Order{
+  background-color: #d00101;
   color: white;
   border: none;
   padding: 15px 30px;
@@ -71,8 +71,8 @@
   transition: background-color 0.3s ease;
 }
 
-.add-to-cart-btn:hover {
-  background-color: #2980b9;
+.add-to-cart-btn:hover ,.Order:hover {
+  background-color: #720b02;
 }
 
 .back-btn {
@@ -85,6 +85,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+
 }
 
 .back-btn:hover {

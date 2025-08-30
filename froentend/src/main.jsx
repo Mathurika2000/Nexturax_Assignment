@@ -18,7 +18,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/" element={<Home />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/product/:id" element={<ProductDetail />} />
-          <Route path="/Products" element={<ProductDetail />} />
+          <Route path="/ProductDetail" element={<ProductDetail />} />
 
 
         </Routes>
